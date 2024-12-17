@@ -1,0 +1,129 @@
+/* styles.css */
+.button {
+    -fx-background-color: #7289DA; /* Button color */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2); /* Soft shadow */
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-border-color: #5B6E99; /* Border color */
+}
+
+.button:hover {
+    -fx-background-color: #5B6E99; /* Hover effect */
+    -fx-border-color: #7289DA; /* Border change on hover */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 2);
+}
+
+.list-view {
+    -fx-background-color: #2C2F33; /* List view background */
+    -fx-text-fill: white; /* Text color */
+    -fx-padding: 10;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-effect: innershadow(two-pass-box, rgba(0, 0, 0, 0.2), 4, 0.3, 0, 0); /* Subtle inner shadow */
+    -fx-cell-hover-color: #7289DA; /* Hover effect on list items */
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #4D4D4D; /* Hover background for list items */
+    -fx-text-fill: #C3C3C3; /* Hover text color */
+}
+
+.text-field {
+    -fx-background-color: #4D4D4D; /* Search field background */
+    -fx-text-fill: white; /* Text color */
+    -fx-prompt-text-fill: #BBBBBB; /* Placeholder text color */
+    -fx-padding: 10; /* Padding */
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #7289DA; /* Border color */
+    -fx-border-width: 1;
+}
+
+.text-field:focused {
+    -fx-background-color: #5B6E99; /* Background when focused */
+    -fx-border-color: #99AAB5; /* Border color when focused */
+}
+
+.label {
+    -fx-text-fill: white; /* Label text color */
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 5 0;
+}
+
+.slider {
+    -fx-background-color: #4D4D4D; /* Slider background */
+    -fx-padding: 10;
+}
+
+.slider .track {
+    -fx-background-color: #2C2F33; /* Track color */
+}
+
+.slider .thumb {
+    -fx-background-color: #7289DA; /* Thumb color */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 2); /* Shadow effect */
+}
+
+/* Custom styling for general layout */
+.main-layout {
+    -fx-background-color: #23272A; /* Darker main background */
+    -fx-padding: 20;
+}
+
+.header {
+    -fx-background-color: #2C2F33;
+    -fx-padding: 15;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2);
+}
+
+.header .title {
+    -fx-font-size: 18px;
+    -fx-text-fill: #7289DA;
+    -fx-font-weight: bold;
+}
+
+.icon-button {
+    -fx-background-color: transparent;
+    -fx-padding: 10;
+    -fx-cursor: hand;
+}
+
+.icon-button:hover {
+    -fx-background-color: rgba(114, 137, 218, 0.2); /* Hover effect for icon buttons */
+    -fx-border-radius: 50%;
+}
+
+.control-button {
+    -fx-background-color: #7289DA;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 15;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.control-button:hover {
+    -fx-background-color: #5B6E99;
+}
+
+.search-button {
+    -fx-background-color: #7289DA;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 12;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.search-button:hover {
+    -fx-background-color: #5B6E99;
+}
